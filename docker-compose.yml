@@ -1,0 +1,26 @@
+version: "3.9"
+services:
+  web:
+    build: ./app
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      # Optional: if you put resume somewhere else, set this:
+      # - RESUME_JSON_PATH=/app/resume.json
+      # Optional future DB:
+      # - MONGO_URL=mongodb://mongo:27017/portfoliodb
+    volumes:
+      - ./resume.json:/app/resume.json:ro
+    depends_on:
+      - mongo
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+volumes:
+  mongo_data:
