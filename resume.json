@@ -1,0 +1,147 @@
+{
+  "name": "Stephen Syl-Akinwale",
+  "contact": {
+    "email": "stephensylak@gmail.com",
+    "github": "https://github.com/stphnmade",
+    "linkedin": "https://linkedin.com/in/stephen-syl-akinwale",
+    "phone": "+1 (716)-292-5784"
+  },
+  "education": [
+    {
+      "institution": "Cornell University",
+      "location": "Ithaca, NY",
+      "degree": "Bachelor of Arts in Information Science",
+      "concentration": [
+        "Data Science",
+        "Interactive Technology",
+        "User Experience"
+      ],
+      "graduation_date": "May 2025",
+      "coursework": [
+        "Computing using Python",
+        "Object-Oriented Programming & Data Structures",
+        "Functional Programming",
+        "Data Visualization",
+        "Rapid Prototyping",
+        "Learning Analytics",
+        "Data-Driven Web Development"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "System Support Intern & Student Desktop Support",
+      "company": "eCornell",
+      "location": "Remote / Ithaca, NY",
+      "dates": "Sep. 2023 – May 2025",
+      "achievements": [
+        "Provided front-line technical support for 5,000+ global users, resolving 95% of tickets within SLA using Jamf, Google Admin, Salesforce, and TDX.",
+        "Analyzed crash patterns and optimized uptime by 18%, reducing backlog by 22% through SQL automation and Excel dashboards.",
+        "Implemented secure hardware recycling and drive wiping, ensuring 100% compliance with institutional data-security policies.",
+        "Improved onboarding workflows, reducing new-user setup time by 30%."
+      ]
+    },
+    {
+      "title": "Vice President",
+      "company": "Cornell Music Production",
+      "location": "Ithaca, NY",
+      "dates": "May 2021 – Present",
+      "achievements": [
+        "Automated event scheduling with Airtable, boosting coordination efficiency by 40%.",
+        "Directed marketing and recruitment campaigns, expanding membership from 27 to 270+ students."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "CURide – Community Ridesharing Platform",
+      "tech": ["Figma", "Balsamiq", "Google Sheets", "UX Research", "Agile"],
+      "dates": "Oct. 2024 – Dec. 2024",
+      "achievements": [
+        "Designed and prototyped Cornell-focused ridesharing app, projecting 25% reduction in solo car trips.",
+        "Improved task completion rate by 33% after usability testing.",
+        "Implemented UX enhancements (role selection, messaging, pending ride management) reducing navigation errors by 40%.",
+        "Managed heuristic evaluation workflows in Google Sheets."
+      ]
+    },
+    {
+      "name": "Wishlist – Collaborative Wishlist Management Tool",
+      "tech": ["React", "Go", "PostgreSQL", "gRPC", "Docker"],
+      "dates": "Dec. 2024 – Present",
+      "achievements": [
+        "Developed cross-platform wishlist app enabling real-time collaboration.",
+        "Optimized PostgreSQL schema for 200ms query time.",
+        "Implemented gRPC microservices with Docker Compose ensuring 100% environment consistency.",
+        "Designed responsive TypeScript UI improving mobile engagement by 28%."
+      ]
+    },
+    {
+      "name": "Alien Invaders – Classic Arcade Game Recreation",
+      "tech": ["Python", "Pygame"],
+      "dates": "Dec. 2021",
+      "achievements": [
+        "Built Python game with sprite animation, collision detection, and coroutines.",
+        "Refactored into modular architecture, doubling speed of feature additions."
+      ]
+    },
+    {
+      "name": "Crossings Café Website",
+      "tech": ["HTML5", "CSS3", "JavaScript", "GitHub"],
+      "dates": "May 2023",
+      "achievements": [
+        "Developed mobile-first, accessible website with ARIA-compliant navigation, increasing time-on-site by 20%.",
+        "Optimized CSS/JS for 40% faster page load time.",
+        "Collaborated with team of 4 on user interviews and GitHub-based code reviews."
+      ]
+    },
+    {
+      "name": "Battleships (OCaml)",
+      "tech": ["OCaml", "Functional Programming"],
+      "dates": "Oct. 2022 – Dec. 2022",
+      "tags": ["game", "ocaml", "functional"],
+      "repo": "https://github.com/your-handle/ocaml-battleships",
+      "achievements": [
+        "Implemented core engine with immutable game state and pure functions.",
+        "Mini-alpha strategy: heuristics for hunt/target phases; ~34% faster average win vs baseline random.",
+        "Property-based tests (QCheck) covering ship placement & shot resolution."
+      ],
+      "media": ["/media/battleships-board.png"]
+    },
+    {
+      "name": "NBA Shot Trends: Who Changed the Game?",
+      "tech": ["R", "tidyverse", "ggplot2", "ggrepel", "shiny/quarto"],
+      "dates": "Mar. 2025",
+      "tags": ["sports-analytics", "data-viz", "r"],
+      "repo": "https://github.com/your-handle/nba-shot-trends",
+      "demo": "https://your-shiny-app-url-or-quarto-site",
+      "embed_url": "https://your-shiny-app-url-or-quarto-site",
+      "achievements": [
+        "Analyzed league-wide shot location densities (2000–2024), quantifying arc expansion and midrange decline.",
+        "Modeled player-level influence scores; identified eras where Curry/Harden tilted expected shot mix by >12%.",
+        "Built interactive explorer to compare shot charts and efficiency bands across seasons."
+      ],
+      "media": ["/media/nba-shot-hex.png", "/media/nba-shot-timeline.png"]
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "Java",
+      "JavaScript",
+      "Go",
+      "C++",
+      "OCaml",
+      "R"
+    ],
+    "databases": ["PostgreSQL", "SQLite", "MongoDB"],
+    "web_software": [
+      "React Native",
+      "HTML",
+      "CSS",
+      "gRPC",
+      "Git",
+      "MERN Stack"
+    ],
+    "tools_platforms": ["Jamf", "Salesforce", "Google Admin", "TDX"]
+  }
+}
