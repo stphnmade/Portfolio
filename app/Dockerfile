@@ -2,16 +2,12 @@ FROM node:20-alpine
 
 WORKDIR /app
 
-# Install deps
 COPY package.json package-lock.json* ./
 RUN npm ci
 
-# Copy app source
 COPY . .
 
-# Build Next.js app
-RUN npm run build
-
-# Run production server
 EXPOSE 3000
+
+# Default command overridden by docker-compose
 CMD ["npm", "start"]
